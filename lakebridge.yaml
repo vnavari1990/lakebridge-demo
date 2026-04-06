@@ -1,0 +1,15 @@
+source:
+  type: snowflake
+  account: ooc47367.us-east-1
+  user: Venkatreddy.Navari@quadranttechnologies.com
+  password: Snowflake@2026
+  role: ACCOUNTADMIN
+  warehouse: SYSTEM$STREAMLIT_NOTEBOOK_WH
+  database: LAKEBRIDGE_DEMO
+  schema: GOLD
+
+target:
+  type: databricks
+  host: https://dbc-2ad94c9d-597f.cloud.databricks.com
+  token: dapi09c438b22aa03bc890f0794a830e9032
+  http_path: /sql/1.0/warehouses/2fb25f644ad78b42
